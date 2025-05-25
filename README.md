@@ -70,7 +70,7 @@ JavaFX-based desktop app for social media planning and scheduling
   ### Setup Steps
   1. Clone the repo
   2. Import into intellij and mark resources/ as Resources Root
-  3. Configure VM options for JavaFX
-  4. Create the MySQL database using :-- schema.sql
+  3. Configure VM options for JavaFX in intellij idea
+  4. Create the MySQL database using :- schema.sql
   5. Run MainApp.java
 ## More Featuers will be added in Review 2
