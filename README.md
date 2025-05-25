@@ -19,7 +19,7 @@ JavaFX-based desktop app for social media planning and scheduling
 
 -----
 
-##Project Structure
+## Project Structure
 
   socialscape
   |----src/
