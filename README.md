@@ -73,4 +73,4 @@ JavaFX-based desktop app for social media planning and scheduling
   3. Configure VM options for JavaFX in intellij idea
   4. Create the MySQL database using :- schema.sql
   5. Run MainApp.java
-## More Featuers will be added in Review 2
+## More Features will be added in Upcoming review
