@@ -23,37 +23,37 @@ JavaFX-based desktop app for social media planning and scheduling
 
 -  socialscape
 -  |----src/
--  |   -|main/
--  |   -   -|---java/
--  |   -   -|   |---com.sufiyan.socialsocial
--  |   -   -|  |  |---app
--  |   -   -|   |  | |---MainApp.java
--  |   -   -|   |  |---controller
--  |   -   -|   |  |  |---DashboardController.java
--  |   -   -|   |  |  |---LoginController.java
--  |   -   -|   |  |  |---RegisterController.java
--  |   -   |   |  |---dao
--  |   -   |   |  |  |---DBConnection.java
--  |   -   |   |  |  |---PostDAO.java
--  |   -   |   |  |  |---UserDAO.java
--  |   -   |   |  |---model
--  |   -   |   |  |  |---Post.java
--  |   -   |   |  |  |---User.java
--  |   -   |   |  |---utils
--  |   -   |   |  |  |---Hashutil.java
--  |   -   |   |  |---TestDB.java
--  |   -   |---resourcrs   
--  |   -   |   |---css
--  |   -   |   |  |---style.css
--  |   -   |   |---media 
--  |   -   |   |  |---img1.jpg
--  |   -   |   |  |---img2.jpg
--  |   -   |   |---sql
--  |   -   |   |  |---schema.sql
--  |   -   |   |---view
--  |   -   |   |  |---</>dashboaard.fxml
--  |   -   |   |  |---</>login.fxml
--  |   -   |   |  |---</>register.fxml
+-  |----|main/
+-  |--------|---java/
+-  |--------|--|---com.sufiyan.socialsocial
+-  |--------|--|--|---app
+-  |--------|--|--|--|---MainApp.java
+-  |--------|--|--|---controller
+-  |--------|--|--|--|---DashboardController.java
+-  |--------|--|--|--|---LoginController.java
+-  |--------|--|--|--|---RegisterController.java
+-  |--------|--|--|---dao
+-  |--------|--|--|--|---DBConnection.java
+-  |--------|--|--|--|---PostDAO.java
+-  |--------|--|--|--|---UserDAO.java
+-  |--------|--|--|---model
+-  |--------|--|--|--|---Post.java
+-  |--------|--|--|--|---User.java
+-  |--------|--|--|---utils
+-  |--------|--|--|--|---Hashutil.java
+-  |--------|--|--|---TestDB.java
+-  |--------|---resourcrs   
+-  |--------|--|---css
+-  |--------|--|--|---style.css
+-  |--------|--|---media 
+-  |--------|--|--|---img1.jpg
+-  |--------|--|--|---img2.jpg
+-  |--------|--|---sql
+-  |--------|--|--|---schema.sql
+-  |--------|--|---view
+-  |--------|--|--|---</>dashboaard.fxml
+-  |--------|--|--|---</>login.fxml
+-  |--------|--|--|---</>register.fxml
 
   ## Technologies used
   - Java 17+
