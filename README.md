@@ -7,7 +7,7 @@ JavaFX-based desktop app for social media planning and scheduling
 
 ------
 
-## Featuers 
+## Features 
 
 -🔐 User Registration & Login
 -📝 Add, Edit, Delete Posts
