@@ -17,8 +17,8 @@ JavaFX-based desktop app for social media planning and scheduling
 - 📤 Export to CSV
 - 🖥 Built with JavaFX + MySQL (or SQLite)
 
-  --
-  Project Structure
+-----
+##Project Structure
   socialscape
   |----src/
   |   |main/
