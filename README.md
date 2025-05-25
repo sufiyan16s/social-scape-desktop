@@ -76,4 +76,3 @@ JavaFX-based desktop app for social media planning and scheduling
   4. Create the MySQL database using :-- schema.sql
   5. Run MainApp.java
 ## More Featuers are added in Review 2
- - its not complete because its first review and i am complete review one requirement
