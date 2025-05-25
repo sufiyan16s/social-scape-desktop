@@ -7,8 +7,7 @@ JavaFX-based desktop app for social media planning and scheduling
 
 ------
 
-## Features 
-
+## Features
 -🔐 User Registration & Login
 -📝 Add, Edit, Delete Posts
 - 🖼 Upload Media (Images/Videos)
@@ -16,7 +15,6 @@ JavaFX-based desktop app for social media planning and scheduling
 - 🔎 Search & Filter Posts
 - 📤 Export to CSV
 - 🖥 Built with JavaFX + MySQL (or SQLite)
-
 -----
 
 ## Project Structure
