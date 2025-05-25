@@ -24,14 +24,14 @@ JavaFX-based desktop app for social media planning and scheduling
 -  socialscape
 -  |----src/
 -  |   -|main/
--  |   -   |---java/
--  |   -   |   |---com.sufiyan.socialsocial
--  |   -   |   |  |---app
--  |   -   |   |  | |---MainApp.java
--  |   -   |   |  |---controller
--  |   -   |   |  |  |---DashboardController.java
--  |   -   |   |  |  |---LoginController.java
--  |   -   |   |  |  |---RegisterController.java
+-  |   -   -|---java/
+-  |   -   -|   |---com.sufiyan.socialsocial
+-  |   -   -|  |  |---app
+-  |   -   -|   |  | |---MainApp.java
+-  |   -   -|   |  |---controller
+-  |   -   -|   |  |  |---DashboardController.java
+-  |   -   -|   |  |  |---LoginController.java
+-  |   -   -|   |  |  |---RegisterController.java
 -  |   -   |   |  |---dao
 -  |   -   |   |  |  |---DBConnection.java
 -  |   -   |   |  |  |---PostDAO.java
