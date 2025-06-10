@@ -13,7 +13,7 @@ A powerful desktop application built with JavaFX, MySQL, and FXML, designed to h
 - 📦 Export to CSV (One-click export of posts)
 - ☁️ Database: MySQL + optional SQLite (Offline support planned)
 
-💡 Bonus Features (Phase 2)
+💡 Bonus Features
 - 🎨 Dark/Light Mode Toggle
 - 🧭 Calendar View (Highlight post days)
 - 💾 Backup & Restore (via JSON/SQL export)
