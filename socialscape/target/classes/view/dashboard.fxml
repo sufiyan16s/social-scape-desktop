@@ -1,0 +1,79 @@
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.control.DatePicker?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.sufiyan.socialscape.controller.DashboardController">
+
+    <!-- Root container for styling and dark mode -->
+    <VBox fx:id="root"
+          spacing="10"
+          alignment="CENTER"
+          prefWidth="1530"
+          prefHeight="820"
+          styleClass="root">
+
+        <!-- Header -->
+        <Label text="Dashboard - Social Scape"
+               styleClass="title-label" />
+
+        <!-- Media Selection -->
+        <HBox spacing="10" alignment="CENTER_LEFT">
+            <Button fx:id="btnChooseFile"
+                    text="Choose Image/Video"
+                    onAction="#handleChooseFile"/>
+            <Label fx:id="lblFileName" text="No file selected" />
+        </HBox>
+
+        <!-- Logout Button -->
+        <HBox alignment="CENTER_RIGHT">
+            <Button text="Logout" onAction="#handleLogout" />
+        </HBox>
+
+        <!-- Media Preview Area -->
+        <HBox spacing="20" alignment="CENTER">
+            <ImageView fx:id="imgPreview"
+                       fitHeight="200"
+                       fitWidth="200"
+                       preserveRatio="true" />
+            <MediaView fx:id="videoPreview"
+                       fitHeight="200"
+                       fitWidth="200" />
+        </HBox>
+
+        <!-- Post Creation Form -->
+        <HBox spacing="10">
+            <TextField fx:id="tfTitle" promptText="Title" />
+            <TextField fx:id="tfPlatform" promptText="Platform" />
+            <TextField fx:id="tfCaption" promptText="Caption" />
+            <TextField fx:id="tfDate" promptText="dd/MM/yyyy" />
+            <TextField fx:id="tfTime" promptText="HH:mm" />
+            <Button text="Add Post" onAction="#handleAddPost" />
+            <Button text="Export CSV" onAction="#handleExportCSV" />
+            <Button text="Dark Mode" onAction="#enableDarkMode" />
+            <Label fx:id="lblStatus" textFill="green" />
+        </HBox>
+
+        <!-- Search & Filter -->
+        <TextField fx:id="tfSearch"
+                   promptText="Search by title/platform..."
+                   onKeyReleased="#filterPosts" />
+        <DatePicker fx:id="dateFilter" onAction="#filterByDate"/>
+
+        <!-- Posts Table -->
+        <TableView fx:id="tablePosts">
+            <columns>
+                <TableColumn fx:id="colTitle" text="Title" />
+                <TableColumn fx:id="colPlatform" text="Platform" />
+                <TableColumn fx:id="colDate" text="Date" />
+                <TableColumn fx:id="colTime" text="Time" />
+                <TableColumn fx:id="colStatus" text="Status" />
+            </columns>
+        </TableView>
+
+    </VBox>
+</AnchorPane>

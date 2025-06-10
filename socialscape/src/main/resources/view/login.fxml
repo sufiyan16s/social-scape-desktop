@@ -1,0 +1,26 @@
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Button?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.sufiyan.socialscape.controller.LoginController"
+      alignment="CENTER"
+      spacing="10"
+      prefWidth="400"
+      prefHeight="300"
+      styleClass="root">
+
+    <Label text="Welcome To SocialScape" styleClass="title-label" />
+    <Label text="Login" styleClass="subtitle-label" />
+
+    <TextField fx:id="tfEmail" promptText="Email" maxWidth="300" />
+    <PasswordField fx:id="tfPassword" promptText="Password" maxWidth="300" />
+
+    <Button text="Login" onAction="#handleLogin" />
+    <Label text="New User?" />
+    <Button text="Register" onAction="#handleGoToRegister" />
+
+    <Label fx:id="lblStatus" textFill="red" />
+</VBox>
