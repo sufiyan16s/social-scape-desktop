@@ -23,17 +23,22 @@ A powerful desktop application built with JavaFX, MySQL, and FXML, designed to h
 - 🔍 Live Search Filter on title/platform/caption
 - 🔄 Scene Switching (Login → Dashboard → Logout)
 
-🧱 Tech Stack
-| Layer | Tools Used | 
-| Language | Java 17+ | 
-| GUI | JavaFX + FXML | 
-| Database | MySQL (JDBC) | 
-| Media | JavaFX ImageView / MediaView | 
-| Charts | JavaFX BarChart | 
-| Export | Java IO + CSV | 
-| Auth | SHA-256 encryption (custom utility) | 
-| Optional | SQLite (offline mode) | 
+---
 
+## 🧱 Tech Stack
+
+| Layer       | Tools Used |
+|-------------|------------|
+| Language    | Java 17+   |
+| GUI         | JavaFX + FXML |
+| Database    | MySQL (JDBC) |
+| Media       | JavaFX `ImageView` / `MediaView` |
+| Charts      | JavaFX `BarChart` |
+| Export      | Java IO + CSV |
+| Auth        | SHA-256 encryption (custom utility) |
+| Optional    | SQLite (offline mode) |
+
+---
 
 
 🗂️ Folder Structure
