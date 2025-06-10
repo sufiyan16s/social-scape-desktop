@@ -97,11 +97,11 @@ USE socialscape;
 - Passwords are hashed using SHA-256 before storing in the database.
 - Database inputs are sanitized using PreparedStatements.
 
--🧑‍💻 Authors
--👨‍💻 Md Sufiyan (Developer & Designer)
--👨‍💻 Niraj kumar
--👨‍💻 Saniya naushad
--👨‍💻 Supriya rai
+- 🧑‍💻 Authors
+- 👨‍💻 Md Sufiyan (Developer & Designer)
+- 👨‍💻 Niraj kumar
+- 👨‍💻 Saniya naushad
+- 👨‍💻 Supriya rai
 
 🤝 Contribution Guidelines
 You can contribute by:
