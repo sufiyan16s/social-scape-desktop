@@ -40,37 +40,37 @@ A powerful desktop application built with JavaFX, MySQL, and FXML, designed to h
 The repository is structured as follows:
 socialscape-desktop/
 - │── src/main/java/com/sufiyan/socialscape/
-- │   ├── app/
-- │   │   ├── MainApp.java
-- │   ├── controller/
-- │   │   ├── DashboardController.java
-- │   │   ├── LoginController.java
-- │   │   ├── RegisterController.java
-- │   ├── dao/
-- │   │   ├── DBConnection.java
-- │   │   ├── PostDAO.java
-- │   │   ├── UserDAO.java
-- │   ├── model/
-- │   │   ├── Post.java
-- │   │   ├── User.java
-- │   ├── utils/
-- │   │   ├── HashUtil.java
-- │   │   ├── TestDB.java
+- │---├── app/
+- │---│---├── MainApp.java
+- │---├── controller/
+- │---│---├── DashboardController.java
+- │---│---├── LoginController.java
+- │---│---├── RegisterController.java
+- │---├── dao/
+- │---│---├── DBConnection.java
+- │---│---├── PostDAO.java
+- │---│---├── UserDAO.java
+- │---├── model/
+- │---│---├── Post.java
+- │---│---├── User.java
+- │---├── utils/
+- │---│---├── HashUtil.java
+- │---│---├── TestDB.java
 - │── src/resources/
-- │   ├── css/
-- │   │   ├── style.css
-- │   ├── media/
-- │   │   ├── IMG_20240429_174824.jpg
-- │   │   ├── media_1748193622955.jpg
-- │   │   ├── media_1748194833181.jpg
-- │   │   ├── media_1748285979812.jpg
-- │   ├── sql/
-- │   ├── view/
-- │   │   ├── dashboard.fxml
-- │   │   ├── login.fxml
-- |   |   ├── register.fxml
-
-This structure ensures clear separation of concerns, making the project modular and maintainable.
+- │---├── css/
+- │---│---├── style.css
+- │---├── media/
+- │---│---├── IMG_20240429_174824.jpg
+- │---│---├── media_1748193622955.jpg
+- │---│---├── media_1748194833181.jpg
+- │---│---├── media_1748285979812.jpg
+- │---├── sql/
+- │---├── view/
+- │---│---├── dashboard.fxml
+- │---│---├── login.fxml
+- |---|---├── register.fxml
+  
+- This structure ensures clear separation of concerns, making the project modular and maintainable.
 
 ⚙️ Setup Instructions
 - 📦 Clone the Repository
@@ -94,6 +94,9 @@ USE socialscape;
 
 🧑‍💻 Authors
 👨‍💻 Md Sufiyan (Developer & Designer)
+👨‍💻 Niraj kumar
+👨‍💻 Saniya naushad
+👨‍💻 Supriya rai
 
 🤝 Contribution Guidelines
 You can contribute by:
@@ -108,4 +111,4 @@ This project is licensed under the MIT License. Feel free to use it for educatio
 - ☁️ Firebase-based cross-platform sync
 - 📱 Android & Desktop unified experience
 
-This enhanced structure should improve clarity and make collaboration easier. Let me know if you'd like further modifications! 🚀
+
