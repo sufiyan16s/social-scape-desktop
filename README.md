@@ -79,7 +79,7 @@ socialscape-desktop/
 
 ⚙️ Setup Instructions
 - 📦 Clone the Repository
-git clone https://github.com/yourusername/socialscape-desktop.git
+git clone https://github.com/sufiyan16s/socialscape-desktop.git
 cd socialscape-desktop
 - 🛠️ Set Up MySQL Database
 CREATE DATABASE socialscape;
