@@ -1,76 +1,54 @@
-# Social-Scape-Desktop
-JavaFX-based desktop app for social media planning and scheduling
+# 📱 Social Scape - Social Media Post Planner (Desktop Edition)
 
-# Social Scape - Desktop Version
+A powerful desktop application built with **JavaFX**, **MySQL**, and **FXML**, designed to help users **schedule, manage, and analyze social media posts** with built-in media previews and analytics.
 
-**Social Scape** is a powerful JavaFX-based desktop application that helps social media creator and managers plan, schedual, and traack their content with featuers like media prviews, database storage, notification, and CSV export.
+---
 
-------
+## 🚀 Features
 
-## Features
--🔐 User Registration & Login
--📝 Add, Edit, Delete Posts
-- 🖼 Upload Media (Images/Videos)
-- 📅 Date & Time Scheduling
-- 🔎 Search & Filter Posts
-- 📤 Export to CSV
-- 🖥 Built with JavaFX + MySQL (or SQLite)
------
+### ✅ Core Features
+- 🔐 **User Authentication** (Login/Register with SHA-256 hashing)
+- 👥 **Role-Based Access** (Admin / User)
+- 📝 **Post Management** (Create, Edit, Delete posts)
+- 🖼️ **Media Upload** (Image/Video preview before saving)
+- 📅 **Schedule Posts** (Date & time picker)
+- 🔍 **Search & Filter** (Keyword + Date filter)
+- 📊 **Analytics (Bar Chart)** (Post count per platform or date)
+- 📦 **Export to CSV** (One-click export of posts)
+- ☁️ **Database**: MySQL + optional SQLite (Offline support planned)
 
-## Project Structure
+---
 
--  socialscape
--  |----src/
--  |----|main/
--  |--------|---java/
--  |--------|--|---com.sufiyan.socialsocial
--  |--------|--|--|---app
--  |--------|--|--|--|---MainApp.java
--  |--------|--|--|---controller
--  |--------|--|--|--|---DashboardController.java
--  |--------|--|--|--|---LoginController.java
--  |--------|--|--|--|---RegisterController.java
--  |--------|--|--|---dao
--  |--------|--|--|--|---DBConnection.java
--  |--------|--|--|--|---PostDAO.java
--  |--------|--|--|--|---UserDAO.java
--  |--------|--|--|---model
--  |--------|--|--|--|---Post.java
--  |--------|--|--|--|---User.java
--  |--------|--|--|---utils
--  |--------|--|--|--|---Hashutil.java
--  |--------|--|--|---TestDB.java
--  |--------|---resourcrs   
--  |--------|--|---css
--  |--------|--|--|---style.css
--  |--------|--|---media 
--  |--------|--|--|---img1.jpg
--  |--------|--|--|---img2.jpg
--  |--------|--|---sql
--  |--------|--|--|---schema.sql
--  |--------|--|---view
--  |--------|--|--|---</>dashboaard.fxml
--  |--------|--|--|---</>login.fxml
--  |--------|--|--|---</>register.fxml
+## 💡 Bonus Features (Phase 2)
 
-  ## Technologies used
-  - Java 17+
-  - JavaFX 21+
-  - MySQL or SQLite
-  - JDBC
-  - SceneBuilder (for UI design)
- 
-  ----
-  ## Setup Instructions
-  ###Prerequisites
-  -Java JDK 17 or 21
-  -JavaFX SDK installed and running
-  Intellij IDEA
+- 🎨 **Dark/Light Mode Toggle**
+- 🧭 **Calendar View (Highlight post days)**
+- 💾 **Backup & Restore** (via JSON/SQL export)
+- 🚪 **Logout button + scene switch**
+- 📉 **Analytics Dashboard** using JavaFX Charts
+- 🔁 **Context Menus** for table post editing
+- 🔍 **Live Search Filter** on title/platform/caption
+- 🔄 **Scene Switching** (Login → Dashboard → Logout)
 
-  ### Setup Steps
-  1. Clone the repo
-  2. Import into intellij and mark resources/ as Resources Root
-  3. Configure VM options for JavaFX in intellij idea
-  4. Create the MySQL database using :- schema.sql
-  5. Run MainApp.java
-## More Features will be added in Upcoming review
+---
+
+## 🧱 Tech Stack
+
+| Layer       | Tools Used |
+|-------------|------------|
+| Language    | Java 17+   |
+| GUI         | JavaFX + FXML |
+| Database    | MySQL (JDBC) |
+| Media       | JavaFX `ImageView` / `MediaView` |
+| Charts      | JavaFX `BarChart` |
+| Export      | Java IO + CSV |
+| Auth        | SHA-256 encryption (custom utility) |
+| Optional    | SQLite (offline mode) |
+
+---
+
+
+---
+
+## 🧭 Folder Structure
+
